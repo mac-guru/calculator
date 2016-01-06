@@ -25,9 +25,12 @@
                                     <constraint firstAttribute="width" secondItem="W79-sm-oQb" secondAttribute="height" multiplier="1:1" id="Zpe-eV-rDO"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="15N-m4-DP3">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ground" translatesAutoresizingMaskIntoConstraints="NO" id="15N-m4-DP3">
                                 <rect key="frame" x="0.0" y="539" width="600" height="61"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="S39-4a-bQW"/>
+                                </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jj8-Ff-kge">
                                 <rect key="frame" x="177" y="103" width="247" height="436"/>
@@ -254,10 +257,13 @@
                             <constraint firstItem="XYW-0V-PxJ" firstAttribute="centerX" secondItem="jj8-Ff-kge" secondAttribute="centerX" id="9eS-fo-qic"/>
                             <constraint firstItem="jj8-Ff-kge" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Aqh-r3-CL9"/>
                             <constraint firstItem="W79-sm-oQb" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="EMT-NI-AHP"/>
+                            <constraint firstItem="15N-m4-DP3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="IsW-wf-K7O"/>
                             <constraint firstAttribute="trailing" secondItem="W79-sm-oQb" secondAttribute="trailing" id="Qwl-Yf-8Pd"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="W79-sm-oQb" secondAttribute="bottom" id="WOd-76-Z6R"/>
                             <constraint firstItem="XYW-0V-PxJ" firstAttribute="centerY" secondItem="jj8-Ff-kge" secondAttribute="centerY" constant="30" id="XRw-Fc-61l"/>
                             <constraint firstItem="W79-sm-oQb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="h3g-9C-GTd"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="15N-m4-DP3" secondAttribute="bottom" id="lAD-Wa-KhM"/>
+                            <constraint firstAttribute="trailing" secondItem="15N-m4-DP3" secondAttribute="trailing" id="oak-TF-JOm"/>
                         </constraints>
                     </view>
                 </viewController>
