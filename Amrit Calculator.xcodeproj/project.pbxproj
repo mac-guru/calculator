@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F004096A1C3D5DF000E9737D /* minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F00409691C3D5DF000E9737D /* minecraft.ttf */; };
 		F06DD5621C3D311C00116010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DD5611C3D311C00116010 /* AppDelegate.swift */; };
 		F06DD5641C3D311C00116010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DD5631C3D311C00116010 /* ViewController.swift */; };
 		F06DD5671C3D311C00116010 /* LunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06DD5651C3D311C00116010 /* LunchScreen.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F00409691C3D5DF000E9737D /* minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = minecraft.ttf; sourceTree = "<group>"; };
 		F06DD55E1C3D311C00116010 /* Amrit Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amrit Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06DD5611C3D311C00116010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06DD5631C3D311C00116010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		F06DD5601C3D311C00116010 /* Amrit Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				F00409691C3D5DF000E9737D /* minecraft.ttf */,
 				F06DD5611C3D311C00116010 /* AppDelegate.swift */,
 				F06DD5631C3D311C00116010 /* ViewController.swift */,
 				F06DD5651C3D311C00116010 /* LunchScreen.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				F06DD56C1C3D311C00116010 /* Main.storyboard in Resources */,
 				F06DD5691C3D311C00116010 /* Assets.xcassets in Resources */,
+				F004096A1C3D5DF000E9737D /* minecraft.ttf in Resources */,
 				F06DD5671C3D311C00116010 /* LunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Amrit Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amrit.Amrit-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Amrit Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amrit.Amrit-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +491,7 @@
 				F06DD5881C3D311D00116010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F06DD5891C3D311D00116010 /* Build configuration list for PBXNativeTarget "Amrit CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +500,7 @@
 				F06DD58B1C3D311D00116010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F06DD58C1C3D311D00116010 /* Build configuration list for PBXNativeTarget "Amrit CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +509,7 @@
 				F06DD58E1C3D311D00116010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
