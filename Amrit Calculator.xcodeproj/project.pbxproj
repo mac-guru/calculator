@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F06DD5621C3D311C00116010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DD5611C3D311C00116010 /* AppDelegate.swift */; };
+		F06DD5641C3D311C00116010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DD5631C3D311C00116010 /* ViewController.swift */; };
+		F06DD5671C3D311C00116010 /* LunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06DD5651C3D311C00116010 /* LunchScreen.storyboard */; };
+		F06DD5691C3D311C00116010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06DD5681C3D311C00116010 /* Assets.xcassets */; };
+		F06DD56C1C3D311C00116010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06DD56A1C3D311C00116010 /* Main.storyboard */; };
+		F06DD5771C3D311D00116010 /* Amrit_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DD5761C3D311D00116010 /* Amrit_CalculatorTests.swift */; };
+		F06DD5821C3D311D00116010 /* Amrit_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DD5811C3D311D00116010 /* Amrit_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F06DD5731C3D311C00116010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06DD5561C3D311C00116010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06DD55D1C3D311C00116010;
+			remoteInfo = "Amrit Calculator";
+		};
+		F06DD57E1C3D311D00116010 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F06DD5561C3D311C00116010 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F06DD55D1C3D311C00116010;
+			remoteInfo = "Amrit Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F06DD55E1C3D311C00116010 /* Amrit Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amrit Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06DD5611C3D311C00116010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F06DD5631C3D311C00116010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F06DD5661C3D311C00116010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LunchScreen.storyboard; sourceTree = "<group>"; };
+		F06DD5681C3D311C00116010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F06DD56B1C3D311C00116010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06DD56D1C3D311C00116010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06DD5721C3D311C00116010 /* Amrit CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amrit CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06DD5761C3D311D00116010 /* Amrit_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amrit_CalculatorTests.swift; sourceTree = "<group>"; };
+		F06DD5781C3D311D00116010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06DD57D1C3D311D00116010 /* Amrit CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amrit CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06DD5811C3D311D00116010 /* Amrit_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amrit_CalculatorUITests.swift; sourceTree = "<group>"; };
+		F06DD5831C3D311D00116010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06DD55B1C3D311C00116010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06DD56F1C3D311C00116010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06DD57A1C3D311D00116010 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F06DD5551C3D311C00116010 = {
+			isa = PBXGroup;
+			children = (
+				F06DD5601C3D311C00116010 /* Amrit Calculator */,
+				F06DD5751C3D311C00116010 /* Amrit CalculatorTests */,
+				F06DD5801C3D311D00116010 /* Amrit CalculatorUITests */,
+				F06DD55F1C3D311C00116010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F06DD55F1C3D311C00116010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06DD55E1C3D311C00116010 /* Amrit Calculator.app */,
+				F06DD5721C3D311C00116010 /* Amrit CalculatorTests.xctest */,
+				F06DD57D1C3D311D00116010 /* Amrit CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06DD5601C3D311C00116010 /* Amrit Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F06DD5611C3D311C00116010 /* AppDelegate.swift */,
+				F06DD5631C3D311C00116010 /* ViewController.swift */,
+				F06DD5651C3D311C00116010 /* LunchScreen.storyboard */,
+				F06DD56A1C3D311C00116010 /* Main.storyboard */,
+				F06DD5681C3D311C00116010 /* Assets.xcassets */,
+				F06DD56D1C3D311C00116010 /* Info.plist */,
+			);
+			path = "Amrit Calculator";
+			sourceTree = "<group>";
+		};
+		F06DD5751C3D311C00116010 /* Amrit CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F06DD5761C3D311D00116010 /* Amrit_CalculatorTests.swift */,
+				F06DD5781C3D311D00116010 /* Info.plist */,
+			);
+			path = "Amrit CalculatorTests";
+			sourceTree = "<group>";
+		};
+		F06DD5801C3D311D00116010 /* Amrit CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F06DD5811C3D311D00116010 /* Amrit_CalculatorUITests.swift */,
+				F06DD5831C3D311D00116010 /* Info.plist */,
+			);
+			path = "Amrit CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06DD55D1C3D311C00116010 /* Amrit Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06DD5861C3D311D00116010 /* Build configuration list for PBXNativeTarget "Amrit Calculator" */;
+			buildPhases = (
+				F06DD55A1C3D311C00116010 /* Sources */,
+				F06DD55B1C3D311C00116010 /* Frameworks */,
+				F06DD55C1C3D311C00116010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amrit Calculator";
+			productName = "Amrit Calculator";
+			productReference = F06DD55E1C3D311C00116010 /* Amrit Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F06DD5711C3D311C00116010 /* Amrit CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06DD5891C3D311D00116010 /* Build configuration list for PBXNativeTarget "Amrit CalculatorTests" */;
+			buildPhases = (
+				F06DD56E1C3D311C00116010 /* Sources */,
+				F06DD56F1C3D311C00116010 /* Frameworks */,
+				F06DD5701C3D311C00116010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06DD5741C3D311C00116010 /* PBXTargetDependency */,
+			);
+			name = "Amrit CalculatorTests";
+			productName = "Amrit CalculatorTests";
+			productReference = F06DD5721C3D311C00116010 /* Amrit CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F06DD57C1C3D311D00116010 /* Amrit CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06DD58C1C3D311D00116010 /* Build configuration list for PBXNativeTarget "Amrit CalculatorUITests" */;
+			buildPhases = (
+				F06DD5791C3D311D00116010 /* Sources */,
+				F06DD57A1C3D311D00116010 /* Frameworks */,
+				F06DD57B1C3D311D00116010 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F06DD57F1C3D311D00116010 /* PBXTargetDependency */,
+			);
+			name = "Amrit CalculatorUITests";
+			productName = "Amrit CalculatorUITests";
+			productReference = F06DD57D1C3D311D00116010 /* Amrit CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06DD5561C3D311C00116010 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Amrit;
+				TargetAttributes = {
+					F06DD55D1C3D311C00116010 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = PVQ3KQ4EA2;
+					};
+					F06DD5711C3D311C00116010 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = PVQ3KQ4EA2;
+						TestTargetID = F06DD55D1C3D311C00116010;
+					};
+					F06DD57C1C3D311D00116010 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = PVQ3KQ4EA2;
+						TestTargetID = F06DD55D1C3D311C00116010;
+					};
+				};
+			};
+			buildConfigurationList = F06DD5591C3D311C00116010 /* Build configuration list for PBXProject "Amrit Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06DD5551C3D311C00116010;
+			productRefGroup = F06DD55F1C3D311C00116010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06DD55D1C3D311C00116010 /* Amrit Calculator */,
+				F06DD5711C3D311C00116010 /* Amrit CalculatorTests */,
+				F06DD57C1C3D311D00116010 /* Amrit CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06DD55C1C3D311C00116010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06DD56C1C3D311C00116010 /* Main.storyboard in Resources */,
+				F06DD5691C3D311C00116010 /* Assets.xcassets in Resources */,
+				F06DD5671C3D311C00116010 /* LunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06DD5701C3D311C00116010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06DD57B1C3D311D00116010 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06DD55A1C3D311C00116010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06DD5641C3D311C00116010 /* ViewController.swift in Sources */,
+				F06DD5621C3D311C00116010 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06DD56E1C3D311C00116010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06DD5771C3D311D00116010 /* Amrit_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F06DD5791C3D311D00116010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06DD5821C3D311D00116010 /* Amrit_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F06DD5741C3D311C00116010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06DD55D1C3D311C00116010 /* Amrit Calculator */;
+			targetProxy = F06DD5731C3D311C00116010 /* PBXContainerItemProxy */;
+		};
+		F06DD57F1C3D311D00116010 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F06DD55D1C3D311C00116010 /* Amrit Calculator */;
+			targetProxy = F06DD57E1C3D311D00116010 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F06DD5651C3D311C00116010 /* LunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06DD5661C3D311C00116010 /* Base */,
+			);
+			name = LunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F06DD56A1C3D311C00116010 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06DD56B1C3D311C00116010 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06DD5841C3D311D00116010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F06DD5851C3D311D00116010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06DD5871C3D311D00116010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Amrit Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrit.Amrit-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F06DD5881C3D311D00116010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Amrit Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrit.Amrit-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F06DD58A1C3D311D00116010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Amrit CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrit.Amrit-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amrit Calculator.app/Amrit Calculator";
+			};
+			name = Debug;
+		};
+		F06DD58B1C3D311D00116010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Amrit CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrit.Amrit-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amrit Calculator.app/Amrit Calculator";
+			};
+			name = Release;
+		};
+		F06DD58D1C3D311D00116010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Amrit CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrit.Amrit-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Amrit Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F06DD58E1C3D311D00116010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Amrit CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amrit.Amrit-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Amrit Calculator";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06DD5591C3D311C00116010 /* Build configuration list for PBXProject "Amrit Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06DD5841C3D311D00116010 /* Debug */,
+				F06DD5851C3D311D00116010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06DD5861C3D311D00116010 /* Build configuration list for PBXNativeTarget "Amrit Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06DD5871C3D311D00116010 /* Debug */,
+				F06DD5881C3D311D00116010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F06DD5891C3D311D00116010 /* Build configuration list for PBXNativeTarget "Amrit CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06DD58A1C3D311D00116010 /* Debug */,
+				F06DD58B1C3D311D00116010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F06DD58C1C3D311D00116010 /* Build configuration list for PBXNativeTarget "Amrit CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06DD58D1C3D311D00116010 /* Debug */,
+				F06DD58E1C3D311D00116010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06DD5561C3D311C00116010 /* Project object */;
+}
