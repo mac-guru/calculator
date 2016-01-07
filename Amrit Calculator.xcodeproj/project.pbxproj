@@ -10,11 +10,12 @@
 		F004096A1C3D5DF000E9737D /* minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F00409691C3D5DF000E9737D /* minecraft.ttf */; };
 		F06DD5621C3D311C00116010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DD5611C3D311C00116010 /* AppDelegate.swift */; };
 		F06DD5641C3D311C00116010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DD5631C3D311C00116010 /* ViewController.swift */; };
-		F06DD5671C3D311C00116010 /* LunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06DD5651C3D311C00116010 /* LunchScreen.storyboard */; };
+		F06DD5671C3D311C00116010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06DD5651C3D311C00116010 /* Main.storyboard */; };
 		F06DD5691C3D311C00116010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06DD5681C3D311C00116010 /* Assets.xcassets */; };
-		F06DD56C1C3D311C00116010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06DD56A1C3D311C00116010 /* Main.storyboard */; };
+		F06DD56C1C3D311C00116010 /* LunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06DD56A1C3D311C00116010 /* LunchScreen.storyboard */; };
 		F06DD5771C3D311D00116010 /* Amrit_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DD5761C3D311D00116010 /* Amrit_CalculatorTests.swift */; };
 		F06DD5821C3D311D00116010 /* Amrit_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DD5811C3D311D00116010 /* Amrit_CalculatorUITests.swift */; };
+		F0A17ABC1C3E865000A134E0 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = F0A17ABB1C3E865000A134E0 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +40,9 @@
 		F06DD55E1C3D311C00116010 /* Amrit Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amrit Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06DD5611C3D311C00116010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06DD5631C3D311C00116010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F06DD5661C3D311C00116010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LunchScreen.storyboard; sourceTree = "<group>"; };
+		F06DD5661C3D311C00116010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F06DD5681C3D311C00116010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F06DD56B1C3D311C00116010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06DD56B1C3D311C00116010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LunchScreen.storyboard; sourceTree = "<group>"; };
 		F06DD56D1C3D311C00116010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F06DD5721C3D311C00116010 /* Amrit CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amrit CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06DD5761C3D311D00116010 /* Amrit_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amrit_CalculatorTests.swift; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		F06DD57D1C3D311D00116010 /* Amrit CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amrit CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06DD5811C3D311D00116010 /* Amrit_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amrit_CalculatorUITests.swift; sourceTree = "<group>"; };
 		F06DD5831C3D311D00116010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A17ABB1C3E865000A134E0 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				F00409691C3D5DF000E9737D /* minecraft.ttf */,
+				F0A17ABB1C3E865000A134E0 /* btn.wav */,
 				F06DD5611C3D311C00116010 /* AppDelegate.swift */,
 				F06DD5631C3D311C00116010 /* ViewController.swift */,
-				F06DD5651C3D311C00116010 /* LunchScreen.storyboard */,
-				F06DD56A1C3D311C00116010 /* Main.storyboard */,
+				F06DD5651C3D311C00116010 /* Main.storyboard */,
+				F06DD56A1C3D311C00116010 /* LunchScreen.storyboard */,
 				F06DD5681C3D311C00116010 /* Assets.xcassets */,
 				F06DD56D1C3D311C00116010 /* Info.plist */,
 			);
@@ -235,10 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F06DD56C1C3D311C00116010 /* Main.storyboard in Resources */,
+				F0A17ABC1C3E865000A134E0 /* btn.wav in Resources */,
+				F06DD56C1C3D311C00116010 /* LunchScreen.storyboard in Resources */,
 				F06DD5691C3D311C00116010 /* Assets.xcassets in Resources */,
 				F004096A1C3D5DF000E9737D /* minecraft.ttf in Resources */,
-				F06DD5671C3D311C00116010 /* LunchScreen.storyboard in Resources */,
+				F06DD5671C3D311C00116010 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,20 +304,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F06DD5651C3D311C00116010 /* LunchScreen.storyboard */ = {
+		F06DD5651C3D311C00116010 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F06DD5661C3D311C00116010 /* Base */,
 			);
-			name = LunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F06DD56A1C3D311C00116010 /* Main.storyboard */ = {
+		F06DD56A1C3D311C00116010 /* LunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F06DD56B1C3D311C00116010 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
