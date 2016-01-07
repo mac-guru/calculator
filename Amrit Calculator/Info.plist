@@ -27,7 +27,7 @@
 		<string>minecraft.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
-	<string>LunchScreen</string>
+	<string>Main</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
